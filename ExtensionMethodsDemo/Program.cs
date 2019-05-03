@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 //using Treehouse.Collections.Generic;
 using Treehouse.Common;
+using static Treehouse.Common.IntExtensions;
 
 using System.Linq;
 using System.Text;
@@ -12,7 +13,9 @@ namespace ExtensionMethodsDemo
     class Program
     {
         static void Main(string[] args)
-        {
+        {            
+            bool isEven = 5.IsEven();
+
             var synonymsForBest = new List<string>
             {
                 "best",
