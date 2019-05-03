@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IEnumerableExtensions.cs" />
     <Compile Include="IntExtensions.cs" />
     <Compile Include="List.cs" />
     <Compile Include="IListExtensions.cs" />

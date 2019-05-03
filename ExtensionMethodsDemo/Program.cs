@@ -14,7 +14,7 @@ namespace ExtensionMethodsDemo
     {
         static void Main(string[] args)
         {            
-            bool isEven = 5.IsEven();
+            //bool isEven = 5.IsEven();            
 
             var synonymsForBest = new List<string>
             {
@@ -27,7 +27,9 @@ namespace ExtensionMethodsDemo
 
             //Console.WriteLine(synonymsForBest.RandomItem());
             //Console.WriteLine(ListUtils<string>.RandomItem(synonymsForBest));
-            Console.WriteLine(synonymsForBest.GetRandom<string>());
+            //Console.WriteLine(synonymsForBest.GetRandom<string>());
+
+            var best = synonymsForBest.FirstOr(s => s.Length.IsEven(), synonymsForBest.GetRandom);
 
             Console.ReadLine();
         }
