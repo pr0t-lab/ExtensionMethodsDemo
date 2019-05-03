@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethodsDemo", "ExtensionMethodsDemo\ExtensionMethodsDemo.csproj", "{AA64DD03-6BB3-4A28-B5AA-3C5C8203D9E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Treehouse.Common", "Treehouse.Common\Treehouse.Common.csproj", "{161BE6A3-1678-4FDC-A69F-33633040C57A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA64DD03-6BB3-4A28-B5AA-3C5C8203D9E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA64DD03-6BB3-4A28-B5AA-3C5C8203D9E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA64DD03-6BB3-4A28-B5AA-3C5C8203D9E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA64DD03-6BB3-4A28-B5AA-3C5C8203D9E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{161BE6A3-1678-4FDC-A69F-33633040C57A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{161BE6A3-1678-4FDC-A69F-33633040C57A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{161BE6A3-1678-4FDC-A69F-33633040C57A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{161BE6A3-1678-4FDC-A69F-33633040C57A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9F8ABAD-54D3-4013-9B87-B623DD854054}
+	EndGlobalSection
+EndGlobal
